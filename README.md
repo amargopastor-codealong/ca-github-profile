@@ -1,21 +1,28 @@
 # ca-GitHub {
 
-## Table of Contents
+## Table of contents
 
-1. [About](#about)
+1. [Introduction](#introduction)
 1. [GitHub profile](#github-profile)
 1. [README](#readme)
 1. [Markdown](#markdown)
-1. [Your profile is unique](#your_profile_is_unique)
-   - [Tags & Links](#tags_&_links)
-   - [Tools](#tools)
-   - [Pinned](#pinned)
-   - [Contributions](#contributions)
-1. [Good practices](#good_practices)
+1. [Your profile](#your-profile)
+   1. [Tags & Links](#tags--links)
+   1. [Tools](#tools)
+   1. [Pinned](#pinned)
+   1. [Contributions](#contributions)
+1. [Good practices](#good-practices)
+   1. [Ordered repositories](#ordered-repositories)
+   1. [No side projects](#no-side-projects)
+   1. [Commits history](#commits-history)
+   1. [.gitignore file](#.gitignore-file)
+   1. [.GitHub Actions](#gitHub-actions)
 1. [Repositories](#repositories)
 1. [Organizations](#organizations)
+1. [Resources](#resources)
+1. [Honorable mentions](#honorable-mentions)
 
-## About
+## Introduction
 
 A través del siguiente contenido y materiales trataremos de dar respuesta a la siguiente pregunta: ¿cómo potenciar mi perfil en GitHub?
 
@@ -23,10 +30,10 @@ Como desarrolladores y desarrolladoras, a menudo tendremos que afrontar momentos
 
 No sólo el esfuerzo y la paciencia serán nuestras aliadas, sino que además deberemos saber compartir e incluso promocionar nuestro trabajo a través de repositorios y perfil en la red de GitHub de manera atractiva, dinámica y profesional.
 
-> [!TIP]
-> Todo desarrollador que se precie tiene mitad de programador y mitad de feriante
-
 En las siguientes páginas veremos diseños, proyectos, tips, consejos y toda clase de información relevante que nos ayudarán a llevar nuestros repositorios al siguiente nivel.
+
+> [!TIP]
+> Te recomendamos que también visites la documentación acerca de [git-github](https://github.com/amargopastor-codealong/ca-git-github) y la [terminal](https://github.com/amargopastor-codealong/ca-terminal)
 
 ## GitHub profile
 
@@ -73,6 +80,8 @@ Las posibilidades que nos ofrece este lenguaje de marcado son múltiples para po
 
 No olvidemos que, como desarrolladores, crear y compartir código será nuestro día a día por lo que es importante **sacar el máximo partido a las etiquetas de lenguaje**:
 
+> html
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -86,6 +95,8 @@ No olvidemos que, como desarrolladores, crear y compartir código será nuestro 
 </html>
 ```
 
+> css
+
 ```css
 /* CSS styles */
 h1 {
@@ -93,6 +104,8 @@ h1 {
 	color: #ce5937;
 }
 ```
+
+> js
 
 ```javascript
 // JavaScript
@@ -145,19 +158,17 @@ Una de las mejores funcionalidades que nos facilita el formato Markdown es la po
 <details>
   <summary>Colapsar información</summary>
 
-> You just did it!
+You just did it! :tada:
 
 </details>
 
 No dejes de explorar todas las posibilidades. Aquí tienes algunos conceptos avanzados para poner a prueba tus ficheros markdown:
 
-> [!CAUTION] >
-> [Crea tus propios diagramas y mapas](https://docs.github.com/es/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)
+> [!CAUTION]
+> Crea tus propios [diagramas y mapas](https://docs.github.com/es/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)
+> Hecha un vistazo a la documentación oficial de [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 
-> [!CAUTION] >
-> [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
-
-## Your profile is unique
+## Your profile
 
 Ahora que sabemos como crear nuestro propio perfil en GitHub y estamos familiarizados con el formato Markdown y los README.md, vamos a poner en práctica nuestros nuevos conocimientos creando [una página de presentación que sea atractiva, moderna y dinámica](https://github.com/amargopastor/amargopastor).
 
@@ -172,7 +183,7 @@ Esta página será una mezcla entre CV, portfolio y landing profesional para tu 
 Las **tags** permiten crear marcadores visualmente claros a cerca de las tecnologías que trabajamos o las herramientas que utilizamos y los **links** te permitirán enlazar tus páginas de interés de manera rápida y accesible: linkeding, gmail, artículos y vídeos, entre otros.
 
 <p>
-  <img src="./img/img2.png" style="width: 60%">
+  <img src="./img/img2.png" style="width: 100%">
 </p>
 
 Crea las tuyas propias con [awesome-badges](https://github.com/Envoy-VC/awesome-badges).
@@ -200,53 +211,124 @@ Crea las tuyas propias con [awesome-badges](https://github.com/Envoy-VC/awesome-
 **'Pinea' tus repositorios destacados**: Puedes destacar aquellos proyectos que hayas creado o colaborado y de los que te sientas particularmente orgullos@, o simplemente porqué quieres postular a puestos cuyas tecnologías seguro conoces gracias a haberlas trabajado en estos mismos 'repos'.
 
 <p>
-  <img src="./img/img3.png" style="width: 60%">
+  <img src="./img/img3.png" style="width: 100%">
 </p>
 
 Recuerda la norma: _si todo es especial nada realmente lo es_, o lo que es lo mismo, **destaca pocos y aquellos que consideres realmente especiales**. Ten en cuenta que, muy probablemente, los visitantes a tu perfil centren su atención en aquellos 'repos' que tu recomiendes, no en los 400 que tengas creados en la pestaña correspondiente :wink:
 
 ### Contributions
 
-// TODO:
+Los proyectos de código abierto tienen un profundo impacto en el mundo del desarrollo de software. Fomentan un ecosistema colaborativo con el intercambio de códigos, el aprendizaje mutuo y los avances tecnológicos.
+
+Como desarrolladores, contribuir a proyectos de código abierto en GitHub puede mejorar nuestras habilidades, ampliar nuestra red y mejorar nuestro currículum. A pesar de todas estas ventajas, contribuir a una comunidad de código abierto por primera vez puede resultar intimidador.
+
+Para nuestra primera aproximación a la colaboración de proyectos open source, podemos seguir los siguientes pasos:
+
+1. **Busca un proyecto adecuado**: uno que se alinee con tus habilidades, intereses y la tecnología con la que está sfamiliarizado o deseas aprender. Puedes emplear alguna de las siguientes herramientas:
+
+   - [GitHub Explore](https://github.com/explore)
+   - [Awesome Lists](https://github.com/topics/awesome)
+   - [Barra de búsqueda](https://github.com/)
+
+    <p>
+     <img src="./img/img6.png" style="width: 100%">
+   </p>
+
+2. **Contributing Guidelines**: Un paso esencial antes de realizar cualquier contribución es revisar las pautas de contribución del proyecto. Estas pautas generalmente se encuentran en un archivo llamado CONTRIBUTING.md, CONTRIBUTE.md o HOW_TO_CONTRIBUTE.md en el repositorio del proyecto. En algunos casos, también puede ser parte del archivo README.md.
+
+En estos documentos podremos encontrar:
+
+- Códigos de conducta
+- Que contribuciones se esperan
+- Proceso de Pull Request
+- Estándar de código
+
+Observa este ejemplo de repositorio para [crear líneas de contribución](https://github.com/jessesquires/.github/blob/main/CONTRIBUTING.md)
 
 ## Good practices
 
 Nuestro perfil de GitHUb ha alcanzado la excelencia. Ahora es atractivo, dinámico y profesional. Vamos un paso más allá:
 
-### Reposotorios ordenados
+### Ordered repositories
 
 Procura ser **ordenado/a con tus repositorios**. Establece tu propio 'naming convention' que te permita orientarte rápidamente en tu página de 'repos'. Piensa no solo en ti, sino en cualquier visitante a nuestro perfil: queremos que la gente vea siempre todo nuestro trabajo de la mejor manera posible. Algunos consejos:
 
 - Nombres claros y concisos
 - Si el nombre puede orientarnos acerca del tipo de proyecto, mejor
-- Usa las descripciones, tags y emojis para una mejor visualización
+- Usa las descripciones, topics y emojis para una mejor visualización
 - Enlaza los deploys de tus proyectos! :robot:
+- Implemente automatizaciones para trabajar de manera más efectiva. Por ejemplo, los flujos de trabajo de CI/CD pueden implementar versiones basadas en convenciones de nomenclatura.
 - Todos los consejos vistos hasta ahora son perfectamente válidos para el [README.md de tus proyectos](https://github.com/amargopastor/dungeon/blob/main/README.md)
 
 <p>
-  <img src="./img/img4.png" style="width: 60%">
+  <img src="./img/img4.png" style="width: 40%">
 </p>
 
-### Issues
+### No side projects
 
-> [!TIP] >
-> [There's No Such Thing as a Side Project.](https://www.ianwootten.co.uk/2016/01/20/theres-no-such-thing-as-a-side-project/)
+Necesitamos tratar todos nuestros proyectos con el mismo nivel de profesionalismo que lo haríamos con cualquier trabajo basado en un cliente. Esto puede resultar difícil ya que todas las metodologías y restricciones deberán ser auto-impuestas.
 
-> Necesitamos tratarlos con el mismo nivel de profesionalismo que lo haríamos con cualquier trabajo basado en un cliente. Esto puede resultar difícil dado que no hemos enfrentado ninguna restricción sobre cómo abordar una tarea. Como desarrolladores, nos dicen constantemente que "enviemos temprano, enviemos con frecuencia", pero yo equilibraría eso con "no enviar demasiado pronto". No tiene sentido mostrar proyectos de los que no estés orgulloso. Un consejo importante aquí es realizar un seguimiento de mis proyectos como lo haría con cualquier cliente. Saber que estoy oficialmente trabajando mientras persigo mis propios esfuerzos me hace pensar de manera diferente sobre ellos.
+Ten en mente que no tiene sentido mostrar proyectos de los que no estés orgulloso: plantea siempre realizar un seguimiento de tus proyectos como lo haría con cualquier cliente.
 
-Esta idea podemos aplicarla a cualquier punto de nuestro proyecto: desde READMEs profesionales, nuestro propio sistema de despliegue o workflow hasta el tratamiento de issues, [labels](https://github.com/amargopastor/dungeon/labels) y milestones al más puro estilo SCRUM master:
+Esta idea podemos aplicarla a cualquier punto de nuestro proyecto: desde READMEs profesionales, nuestro propio sistema de despliegue hasta el tratamiento de [issues](https://github.com/amargopastor/dungeon/issues), [labels](https://github.com/amargopastor/dungeon/labels) y [proyectos](https://github.com/amargopastor/dungeon/projects/1) al más puro estilo SCRUM master:
 
 <p>
-  <img src="./img/img5.png" style="width: 60%">
+  <img src="./img/img5.png" style="width: 100%">
 </p>
 
-### Open source
+> [!TIP]
+> There's No Such Thing as a [Side Project.](https://www.ianwootten.co.uk/2016/01/20/theres-no-such-thing-as-a-side-project/)
 
-//TODO:
+### Commits history
 
-## Workflow
+Un historial de confirmaciones limpio es crucial para una colaboración y una gestión de código eficaces. Nos proporcionará un registro claro de los cambios que se han realizado en el código base y ayuda a mantener este mismo código limpio y estable.
 
-//TODO:
+- **Mensajes descriptivos**: mensajes que expliquen el propósito y el contexto de los cambios que se han realizado.
+
+- **Cambios atómicas**: cambios pequeños y enfocados que contengan una sola modificación lógica.
+
+- **Formato coherente**: nuestros mensajes serán siempre imperativos y mantendrán una primera línea de 50 caracteres o menos.
+
+> [!TIP]
+> Siempre que sea posible, realiza tus commits en inglés.
+
+> :x: Malas prácticas
+
+```bash
+git commit -m "Fixed stuff"
+
+```
+
+> :white_check_mark: Buenas prácticas
+
+```bash
+git commit -m "Add user authentication mechanism to the inventory management system"
+```
+
+### .gitignore file
+
+El archivo .gitignore es una forma sencilla y eficaz de gestionar los archivos y directorios que desea excluir del control de versiones.
+
+- Ignorar ficheros de compilación
+- Ignorar información confidencial
+- Ignorar archivos específicos del usuario
+- Ignorar archivos grandes
+- Ignorar registros y cachés
+- Ignorar archivos de prueba
+
+## GitHub Actions
+
+GitHub Actions es una de las característica de GitHub más útil, la cual nos permite automatizar tareas a través de flujos de trabajo. Proporciona una forma flexible y escalable de crear, probar e implementar código y nos ayuda a mantener una base de código limpia y estable.
+
+GitHub Actions es una herramienta compleja y escalable (de la cual podríamos escribir largos artículos), pero nosotros vamos a centrarnos en describir alguno de sus valores más básicos:
+
+- Automatización en procesos de compilación
+- Automatización de pruebas
+- Automatización en los procesos de despliegue
+- Automatización de releases
+- Automatización de la documentación
+- Automatización IaC (tareas de infraestructura como código (IaC), aprovisionamiento, configuración e implementació)
+- Automatice los controles de seguridad
 
 ## Repositories
 
@@ -267,7 +349,11 @@ Puedes ver la [lista completa en este enlace](https://github.com/abhisheknaiidu/
 
 ## Organizations
 
-//TODO:
+Las [organizaciones son cuentas compartidas](https://github.com/settings/organizations) en las que las empresas y los proyectos de código abierto pueden colaborar en muchos proyectos a la vez, con características sofisticadas de seguridad y administrativas.
+
+<p>
+  <img src="./img/img7.png" style="width: 100%">
+</p>
 
 ## Resources
 
@@ -297,6 +383,8 @@ Puedes ver la [lista completa en este enlace](https://github.com/abhisheknaiidu/
 
 - Watch out! [Awesome-readme](https://github.com/matiassingers/awesome-readme?tab=readme-ov-file)
 
+- Las mejoras[prácticas para los repositorios de GitHub](https://dev.to/pwd9000/github-repository-best-practices-23ck)
+
 ### Badges
 
 - Tu listado de [awesome-badges](https://github.com/Envoy-VC/awesome-badges)
@@ -309,8 +397,8 @@ Puedes ver la [lista completa en este enlace](https://github.com/abhisheknaiidu/
 
 - Observa esta [lista de originales perfiles de GitHub](https://github.com/abhisheknaiidu/awesome-github-profile-readme) y toma ideas para el tuyo propio :nerd_face:
 
-// TODO: Read in detail
+## Honorable mentions
 
-[github respositories best practise](https://dev.to/pwd9000/github-repository-best-practices-23ck)
+- 🍍
 
-[github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+**[⬆ back to top](#table-of-contents)**
