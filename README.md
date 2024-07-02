@@ -33,7 +33,7 @@ No sólo el esfuerzo y la paciencia serán nuestras aliadas, sino que además de
 En las siguientes páginas veremos diseños, proyectos, tips, consejos y toda clase de información relevante que nos ayudarán a llevar nuestros repositorios al siguiente nivel.
 
 > [!TIP]
-> Te recomendamos que también visites la documentación acerca de [git-github](https://github.com/amargopastor-codealong/ca-git-github) y la [terminal](https://github.com/amargopastor-codealong/ca-terminal)
+> Te recomendamos que también visites la documentación acerca de [git-github](https://github.com/amargopastor-codealong/ca-git-github) y la [terminal](https://github.com/amargopastor-codealong/ca-terminal).
 
 ## GitHub profile
 
@@ -165,8 +165,7 @@ You just did it! :tada:
 No dejes de explorar todas las posibilidades. Aquí tienes algunos conceptos avanzados para poner a prueba tus ficheros markdown:
 
 > [!CAUTION]
-> Crea tus propios [diagramas y mapas](https://docs.github.com/es/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)
-> Hecha un vistazo a la documentación oficial de [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+> Crea tus propios [diagramas y mapas](https://docs.github.com/es/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams) y hecha un vistazo a la documentación oficial de [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 
 ## Your profile
 
@@ -243,7 +242,7 @@ En estos documentos podremos encontrar:
 - Proceso de Pull Request
 - Estándar de código
 
-Observa este ejemplo de repositorio para [crear líneas de contribución](https://github.com/jessesquires/.github/blob/main/CONTRIBUTING.md)
+Observa este ejemplo de repositorio para [crear líneas de contribución](https://github.com/jessesquires/.github/blob/main/CONTRIBUTING.md).
 
 ## Good practices
 
