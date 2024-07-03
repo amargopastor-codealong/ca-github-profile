@@ -4,19 +4,20 @@
 
 1. [Introduction](#introduction)
 1. [GitHub profile](#github-profile)
-1. [README](#readme)
 1. [Markdown](#markdown)
 1. [Your profile](#your-profile)
    1. [Tags & Links](#tags--links)
-   1. [Tools](#tools)
+   1. [Stats and Activity](#stats-and-activity)
+   1. [Social Media & Co](#social-media--co)
    1. [Pinned](#pinned)
    1. [Contributions](#contributions)
 1. [Good practices](#good-practices)
+   1. [README](#readme)
    1. [Ordered repositories](#ordered-repositories)
    1. [No side projects](#no-side-projects)
    1. [Commits history](#commits-history)
    1. [.gitignore file](#.gitignore-file)
-   1. [.GitHub Actions](#gitHub-actions)
+   1. [GitHub Actions](#gitHub-actions)
 1. [Repositories](#repositories)
 1. [Organizations](#organizations)
 1. [Resources](#resources)
@@ -51,24 +52,6 @@ Detalles que debes tener en cuenta:
 - El archivo README.md contiene cualquier tipo de contenido.
 
 Este README.md pasará a estar activo por defecto en nuestro perfil de GitHub y será tu nueva carta de presentación para todas las personas que visiten tu perfil. ¡Imagina la importancia de preparar bien este nuevo documento!
-
-## README
-
-Tanto en nuestra nueva página de perfil como para cualquier proyecto que decidamos almacenar de manera profesional en GitHub, todo README.md debe estar centrado siempre en comunicar la información más importante:
-
-- Qué hace el proyecto
-- Por qué el proyecto es útil
-- Cómo pueden comenzar los usuarios con el proyecto
-- Dónde pueden recibir ayuda los usuarios con tu proyecto
-- Quién mantiene y contribuye con el proyecto
-- Deployments :robot:
-
-Si colocas tu archivo README en el directorio .github, raíz o docs oculto de tu repositorio, GitHub lo reconocerá y automáticamente expondrá tu archivo README a los visitantes del repositorio.
-
-Hecha un vistazo al README de los siguientes proyectos:
-
-- [Dungeon](https://github.com/amargopastor/dungeon)
-- [ChartJS](https://github.com/amargopastor/chartJS)
 
 ## Markdown
 
@@ -169,13 +152,9 @@ No dejes de explorar todas las posibilidades. Aquí tienes algunos conceptos ava
 
 ## Your profile
 
-Ahora que sabemos como crear nuestro propio perfil en GitHub y estamos familiarizados con el formato Markdown y los README.md, vamos a poner en práctica nuestros nuevos conocimientos creando [una página de presentación que sea atractiva, moderna y dinámica](https://github.com/amargopastor/amargopastor).
+Ahora que sabemos como crear nuestro propio perfil en GitHub y estamos familiarizados con el formato Markdown, vamos a poner en práctica nuestros nuevos conocimientos creando [una página de presentación que sea atractiva, moderna y dinámica](https://github.com/amargopastor/amargopastor).
 
-Esta página será una mezcla entre CV, portfolio y landing profesional para tu negocio más importante: tu cerrara como developer. Veamos algunos consejos:
-
-1. **Ajusta tu README.md al tipo de perfil que quieras proyectar**: Este sector busca todo tipo de personas: sé creativo pero ten siempre en mente a que tipo de trabajo/sector/tecnología quieres acceder.
-2. **Tus datos**: foto, contacto, preferencias laborales, perfil, intereses... Siempre claro y conciso.
-3. **Elige un nombre atractivo y fácil de recordar**: no es imprescindible, pero siempre serás más fácil de encontrar si procuras un nombre único y que genere marca.
+Esta página será una mezcla entre CV, portfolio y landing profesional. **Ajusta tu README.md al tipo de perfil que quieras proyectar**: este sector busca todo tipo de personas: sé creativo pero ten siempre en mente a que tipo de trabajo/sector/tecnología quieres acceder.
 
 ### Tags & Links
 
@@ -187,23 +166,44 @@ Las **tags** permiten crear marcadores visualmente claros a cerca de las tecnolo
 
 Crea las tuyas propias con [awesome-badges](https://github.com/Envoy-VC/awesome-badges).
 
-### Tools
+### Stats and Activity
 
-// TODO:implement examples
+> README.md
 
-- [github-readme-stats](https://github.com/codewithgauri/github-readme-stats)
+<!-- prettier-ignore -->
+```html
+<div align="center">
 
-- [pixel-hub](https://github.com/behind24proxies/PixelHub?tab=readme-ov-file)
+	![](https://github-readme-stats.vercel.app/api?username=amargopastor&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false)<br />
+	![](https://github-readme-streak-stats.herokuapp.com/?user=amargopastor&theme=tokyonight&hide_border=false)<br />
+	![](https://github-readme-stats.vercel.app/api/top-langs/?username=amargopastor&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact)<br />
+	![](https://github-readme-activity-graph.vercel.app/graph?username=amargopastor&theme=tokyo-night)
 
-- [gh-profile-readme-generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)
+</div>
+```
 
-- [profile-readme-generator.com](https://profile-readme-generator.com)
+<div align="center">
 
-- [show your latest posts](https://dev.to/gautamkrishnar/show-your-latest-dev-to-posts-automatically-in-your-github-profile-readme-3nk8)
+![](https://github-readme-stats.vercel.app/api?username=amargopastor&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=amargopastor&theme=tokyonight&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=amargopastor&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact)<br/>
+![](https://github-readme-activity-graph.vercel.app/graph?username=amargopastor&theme=tokyo-night)
 
-- [Dynamically Generated Github Stats For Your Profile ReadMe](https://dev.to/anuraghazra/dynamically-generated-github-stats-for-your-profile-readme-o4g)
+</div>
 
-- [Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)
+### Social Media & Co
+
+```bash
+[![Linkedin: amargopastor](https://img.shields.io/badge/-amargopastor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/amargopastor/)](https://www.linkedin.com/in/amargopastor/)
+[![Gmail Badge](https://img.shields.io/badge/-amargopastor@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:amargopastor@gmail.com)](mailto:amargopastor@gmail.com)
+[![codealong](https://img.shields.io/badge/-%F0%9F%90%99%20codealong-blue)](https://github.com/amargopastor-codealong)
+[![GitHub: amargopastor](https://img.shields.io/github/followers/amargopastor?label=follow&style=social)](https://github.com/amargopastor)
+```
+
+[![Linkedin: amargopastor](https://img.shields.io/badge/-amargopastor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/amargopastor/)](https://www.linkedin.com/in/amargopastor/)
+[![Gmail Badge](https://img.shields.io/badge/-amargopastor@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:amargopastor@gmail.com)](mailto:amargopastor@gmail.com)
+[![codealong](https://img.shields.io/badge/-%F0%9F%90%99%20codealong-blue)](https://github.com/amargopastor-codealong)
+[![GitHub: amargopastor](https://img.shields.io/github/followers/amargopastor?label=follow&style=social)](https://github.com/amargopastor)
 
 ### Pinned
 
@@ -247,6 +247,24 @@ Observa este ejemplo de repositorio para [crear líneas de contribución](https:
 ## Good practices
 
 Nuestro perfil de GitHUb ha alcanzado la excelencia. Ahora es atractivo, dinámico y profesional. Vamos un paso más allá:
+
+### README
+
+Para cualquier proyecto que decidamos almacenar de manera profesional en GitHub todo README.md debe estar centrado siempre en comunicar la información más importante:
+
+- Qué hace el proyecto
+- Por qué el proyecto es útil
+- Cómo pueden comenzar los usuarios con el proyecto
+- Dónde pueden recibir ayuda los usuarios con tu proyecto
+- Quién mantiene y contribuye con el proyecto
+- Deployments :robot:
+
+Si colocas tu archivo README en el directorio .github, raíz o docs oculto de tu repositorio, GitHub lo reconocerá y automáticamente expondrá tu archivo README a los visitantes del repositorio.
+
+Hecha un vistazo al README de los siguientes proyectos:
+
+- [Dungeon](https://github.com/amargopastor/dungeon)
+- [ChartJS](https://github.com/amargopastor/chartJS)
 
 ### Ordered repositories
 
@@ -333,6 +351,7 @@ GitHub Actions es una herramienta compleja y escalable (de la cual podríamos es
 
 Echa un vistazo a algunos de los 'repos' más interesantes de la comunidad en GitHub:
 
+- [ParthJohri](https://github.com/ParthJohri)
 - [anmol098](https://github.com/anmol098/anmol098)
 - [Zhenye-Na](https://github.com/Zhenye-Na/Zhenye-Na)
 - [guilyx](https://github.com/guilyx/guilyx)
@@ -396,8 +415,30 @@ Las [organizaciones son cuentas compartidas](https://github.com/settings/organiz
 
 - Observa esta [lista de originales perfiles de GitHub](https://github.com/abhisheknaiidu/awesome-github-profile-readme) y toma ideas para el tuyo propio :nerd_face:
 
+### Stats and Activity
+
+- Generador de [stats](https://github.com/codewithgauri/github-readme-stats)
+
+- A place where you [click on black boxes](https://github.com/behind24proxies/PixelHub?tab=readme-ov-file)
+
+- [Generador dinámico de stats](https://dev.to/anuraghazra/dynamically-generated-github-stats-for-your-profile-readme-o4g)
+
+- [Spotify Recently Played](https://github.com/JeffreyCA/spotify-recently-played-readme)
+
+- [Developer Quotes for your Github](https://github.com/PiyushSuthar/github-readme-quotes)
+
+### Profile Generators
+
+- [#1 profile generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)
+
+- [#2 profile generator](https://profile-readme-generator.com)
+
 ## Honorable mentions
 
 - 🍍
 
 **[⬆ back to top](#table-of-contents)**
+
+// TODO: Edit README.md
+// TODO: https://github.com/Platane/snk
+// TODO: https://github.com/behind24proxies/PixelHub
