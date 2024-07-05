@@ -20,6 +20,7 @@
    1. [GitHub Actions](#gitHub-actions)
 1. [Repositories](#repositories)
 1. [Organizations](#organizations)
+1. [PixelHub](#pixelhub)
 1. [Resources](#resources)
 1. [Honorable mentions](#honorable-mentions)
 
@@ -174,7 +175,6 @@ Crea las tuyas propias con [awesome-badges](https://github.com/Envoy-VC/awesome-
 ```html
 <div align="center">
 
-	![](https://github-readme-stats.vercel.app/api?username=amargopastor&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false)<br />
 	![](https://github-readme-streak-stats.herokuapp.com/?user=amargopastor&theme=tokyonight&hide_border=false)<br />
 	![](https://github-readme-stats.vercel.app/api/top-langs/?username=amargopastor&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact)<br />
 	![](https://github-readme-activity-graph.vercel.app/graph?username=amargopastor&theme=tokyo-night)
@@ -184,7 +184,6 @@ Crea las tuyas propias con [awesome-badges](https://github.com/Envoy-VC/awesome-
 
 <div align="center">
 
-![](https://github-readme-stats.vercel.app/api?username=amargopastor&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=amargopastor&theme=tokyonight&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=amargopastor&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact)<br/>
 ![](https://github-readme-activity-graph.vercel.app/graph?username=amargopastor&theme=tokyo-night)
@@ -373,6 +372,46 @@ Las [organizaciones son cuentas compartidas](https://github.com/settings/organiz
   <img src="./img/img7.png" style="width: 100%">
 </p>
 
+## PixelHub
+
+Si has llegado hasta aquí :wink: quizás te interese un pequeño script que nos ayuda a generar instantáneamente un completo gráfico de contribuciones durante el último año.
+
+Las instrucciones son sencillas:
+
+1. Crea un nuevo repositorio vacío en GitHUb. ¡Es importante que no lo inicialices!
+2. Descarga la carpeta [github-activity-generator](https://github.com/Shpota/github-activity-generator/archive/master.zip)
+3. Ejecuta el fichero 'contribute.py' (modifica user y repo por tu nombre de github y nombre del repo vacío, respectivamente):
+
+```bash
+python python contribute.py --repository=git@github.com:user/repo.git
+```
+
+Puedes editar las contribuciones con algunos comandos especiales:
+
+> Sin código los fines de semana:
+
+```bash
+python contribute.py --no_weekends --repository=git@github.com:user/repo.git
+```
+
+> Especifica los días anteriores y posteriores desde el 'current date':
+
+```bash
+python contribute.py --days_before=10 --days_after=15 --repository=git@github.com:user/repo.git
+```
+
+> :unamused: Antes:
+
+<p>
+  <img src="./img/img8.png" style="width: 100%">
+</p>
+
+> :sunglasses: Después:
+
+<p>
+  <img src="./img/img9.png" style="width: 100%">
+</p>
+
 ## Resources
 
 ### README & Markdown
@@ -427,6 +466,8 @@ Las [organizaciones son cuentas compartidas](https://github.com/settings/organiz
 
 - [Developer Quotes for your Github](https://github.com/PiyushSuthar/github-readme-quotes)
 
+- Prueba el [GitHub Activity Generator](https://github.com/Shpota/github-activity-generator)
+
 ### Profile Generators
 
 - [#1 profile generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)
@@ -438,7 +479,3 @@ Las [organizaciones son cuentas compartidas](https://github.com/settings/organiz
 - 🍍
 
 **[⬆ back to top](#table-of-contents)**
-
-// TODO: Edit README.md
-// TODO: https://github.com/Platane/snk
-// TODO: https://github.com/behind24proxies/PixelHub
