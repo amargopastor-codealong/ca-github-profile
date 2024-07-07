@@ -304,7 +304,7 @@ Esta idea podemos aplicarla a cualquier punto de nuestro proyecto: desde READMEs
 
 ### Commits history
 
-Un historial de confirmaciones limpio es crucial para una colaboración y una gestión de código eficaces. Nos proporcionará un registro claro de los cambios que se han realizado en el código base y ayuda a mantener este mismo código limpio y estable.
+Un historial de commits limpio es crucial para una colaboración y una gestión de código eficaz. Nos proporcionará un registro claro de los cambios que se han realizado en el código base y ayuda a mantener este mismo código limpio y estable.
 
 - **Mensajes descriptivos**: mensajes que expliquen el propósito y el contexto de los cambios que se han realizado.
 
@@ -375,7 +375,7 @@ Puedes ver la [lista completa en este enlace](https://github.com/abhisheknaiidu/
 
 ## Organizations
 
-Las [organizaciones son cuentas compartidas](https://github.com/settings/organizations) en las que las empresas y los proyectos de código abierto pueden colaborar en muchos proyectos a la vez, con características sofisticadas de seguridad y administrativas.
+Las [organizaciones son cuentas compartidas](https://github.com/settings/organizations) en las que las empresas y los proyectos de código abierto pueden colaborar en muchos repositorios a la vez, con características personalizadas de seguridad y administrativas.
 
 <p>
   <img src="./img/img7.png" style="width: 100%">
