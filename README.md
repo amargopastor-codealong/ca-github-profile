@@ -26,11 +26,11 @@
 
 ## Introduction
 
-A través del siguiente contenido y materiales trataremos de dar respuesta a la siguiente pregunta: ¿cómo potenciar mi perfil en GitHub?
+A través del siguiente contenido y materiales trataremos de dar respuesta a la siguiente pregunta: **¿cómo potenciar mi perfil en GitHub?**
 
 Como desarrolladores y desarrolladoras, a menudo tendremos que afrontar momentos o pruebas durante nuestra vida laboral que supondrán, entre otras cosas, el acceso a puestos, colaboraciones, formaciones e incluso tecnologías que nos ayudarán a progresar como profesionales del sector.
 
-No sólo el esfuerzo y la paciencia serán nuestras aliadas, sino que además deberemos saber compartir e incluso promocionar nuestro trabajo a través de repositorios y perfil en la red de GitHub de manera atractiva, dinámica y profesional.
+No sólo el esfuerzo y la paciencia serán nuestras aliadas, sino que además deberemos **saber compartir e incluso promocionar nuestro trabajo** a través de repositorios y perfil en la red de GitHub de manera atractiva, dinámica y profesional.
 
 En las siguientes páginas veremos diseños, proyectos, tips, consejos y toda clase de información relevante que nos ayudarán a llevar nuestros repositorios al siguiente nivel.
 
@@ -58,7 +58,7 @@ Este README.md pasará a estar activo por defecto en nuestro perfil de GitHub y 
 
 Pero, ¿exíste alguna manera de editar mis README.md para evitar un aburrido texto plano? Bienvenid@ al formato Markdown.
 
-Markdown es un lenguaje fácil de leer y escribir para aplicar formato a todos nuestros textos. Podemos usar sintaxis Markdown, junto con algunas etiquetas HTML adicionales, para aplicar formato a la escritura en GitHub en lugares como los archivos README.md o los comentarios en las solicitudes de cambios y Pull Request.
+**Markdown es un lenguaje fácil de leer y escribir para aplicar formato a todos nuestros textos**. Podemos usar sintaxis Markdown, junto con algunas etiquetas HTML adicionales, para aplicar formato a la escritura en GitHub en lugares como los archivos README.md o los comentarios en las solicitudes de cambios y Pull Request.
 
 Las posibilidades que nos ofrece este lenguaje de marcado son múltiples para poder [crear formatos sofisticados en nuestra prosa](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
@@ -118,6 +118,10 @@ Las alertas son extensiones del formato Markdown que podemos usar para enfatizar
 > [!CAUTION]
 > Negative potential consequences of an action.
 
+<p>
+  <img src="./img/img10.png" style="width: 60%">
+</p>
+
 </details>
 
 <details>
@@ -155,7 +159,7 @@ No dejes de explorar todas las posibilidades. Aquí tienes algunos conceptos ava
 
 Ahora que sabemos como crear nuestro propio perfil en GitHub y estamos familiarizados con el formato Markdown, vamos a poner en práctica nuestros nuevos conocimientos creando [una página de presentación que sea atractiva, moderna y dinámica](https://github.com/amargopastor/amargopastor).
 
-Esta página será una mezcla entre CV, portfolio y landing profesional. **Ajusta tu README.md al tipo de perfil que quieras proyectar**: este sector busca todo tipo de personas: sé creativo pero ten siempre en mente a que tipo de trabajo/sector/tecnología quieres acceder.
+Esta página será una mezcla entre CV, portfolio y landing profesional. **Ajusta tu README.md al tipo de perfil que quieras proyectar**. Este sector busca todo tipo de personas: sé creativ@ pero ten siempre en mente a que tipo de trabajo/sector/tecnología a la que quieres acceder.
 
 ### Tags & Links
 
@@ -216,16 +220,17 @@ Recuerda la norma: _si todo es especial nada realmente lo es_, o lo que es lo mi
 
 ### Contributions
 
-Los proyectos de código abierto tienen un profundo impacto en el mundo del desarrollo de software. Fomentan un ecosistema colaborativo con el intercambio de códigos, el aprendizaje mutuo y los avances tecnológicos.
+Los proyectos de código abierto tienen un profundo impacto en el mundo del desarrollo de software. Fomentan un **ecosistema colaborativo con el intercambio de códigos, el aprendizaje mutuo y los avances tecnológicos**.
 
-Como desarrolladores, contribuir a proyectos de código abierto en GitHub puede mejorar nuestras habilidades, ampliar nuestra red y mejorar nuestro currículum. A pesar de todas estas ventajas, contribuir a una comunidad de código abierto por primera vez puede resultar intimidador.
+Como desarrolladores, contribuir a proyectos de código abierto en GitHub puede mejorar nuestras habilidades, ampliar nuestra red y mejorar nuestro currículum. A pesar de todas estas ventajas, contribuir a una comunidad de código abierto por primera vez puede resultar algo intimidante.
 
-Para nuestra primera aproximación a la colaboración de proyectos open source, podemos seguir los siguientes pasos:
+Para nuestra primera aproximación a la colaboración de proyectos 'open source', podemos seguir los siguientes pasos:
 
 1. **Busca un proyecto adecuado**: uno que se alinee con tus habilidades, intereses y la tecnología con la que está sfamiliarizado o deseas aprender. Puedes emplear alguna de las siguientes herramientas:
 
    - [GitHub Explore](https://github.com/explore)
    - [Awesome Lists](https://github.com/topics/awesome)
+   - [Personal List](https://github.com/stars/amargopastor/lists/opensource)
    - [Barra de búsqueda](https://github.com/)
 
     <p>
@@ -264,6 +269,8 @@ Hecha un vistazo al README de los siguientes proyectos:
 
 - [Dungeon](https://github.com/amargopastor/dungeon)
 - [ChartJS](https://github.com/amargopastor/chartJS)
+- [Gallery-API](https://github.com/amargopastor/gallery-api)
+- [Gallery-front](https://github.com/amargopastor/gallery-front)
 
 ### Ordered repositories
 
@@ -376,7 +383,7 @@ Las [organizaciones son cuentas compartidas](https://github.com/settings/organiz
 
 ## PixelHub
 
-Si has llegado hasta aquí :wink: quizás te interese un pequeño script que nos ayuda a generar instantáneamente un completo gráfico de contribuciones durante el último año.
+Si has llegado hasta aquí :wink: quizás te interese un pequeño script que nos ayuda a generar instantáneamente un completo gráfico de contribuciones durante el último año[^1].
 
 Las instrucciones son sencillas:
 
@@ -413,6 +420,8 @@ python contribute.py --days_before=10 --days_after=15 --repository=git@github.co
 <p>
   <img src="./img/img9.png" style="width: 100%">
 </p>
+
+[^1]: Ten en cuenta que un vistazo rápido es suficiente para comprobar que el gráfico generado proviene de commits vacuos. No se trata de engañar a nadie sino de explorar alternativas, herramientas y reflexionar sobre las apariencias y la auténtica dedicación.
 
 ## Resources
 
