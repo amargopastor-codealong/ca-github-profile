@@ -16,7 +16,7 @@
    1. [Ordered repositories](#ordered-repositories)
    1. [No side projects](#no-side-projects)
    1. [Commits history](#commits-history)
-   1. [.gitignore file](#.gitignore-file)
+   1. [.gitignore file](#gitignore-file)
    1. [GitHub Actions](#gitHub-actions)
 1. [Repositories](#repositories)
 1. [Organizations](#organizations)
@@ -332,6 +332,8 @@ El archivo .gitignore es una forma sencilla y eficaz de gestionar los archivos y
 - Ignorar registros y cachés
 - Ignorar archivos de prueba
 
+Puedes emplear es este generador on-line para tus ficheros [.gitignore](https://www.toptal.com/developers/gitignore)
+
 ## GitHub Actions
 
 GitHub Actions es una de las característica de GitHub más útil, la cual nos permite automatizar tareas a través de flujos de trabajo. Proporciona una forma flexible y escalable de crear, probar e implementar código y nos ayuda a mantener una base de código limpia y estable.
@@ -467,6 +469,8 @@ python contribute.py --days_before=10 --days_after=15 --repository=git@github.co
 - [Developer Quotes for your Github](https://github.com/PiyushSuthar/github-readme-quotes)
 
 - Prueba el [GitHub Activity Generator](https://github.com/Shpota/github-activity-generator)
+
+- O personaliza tus mensajes con [PixelHub](https://github.com/behind24proxies/PixelHub/tree/main)
 
 ### Profile Generators
 
