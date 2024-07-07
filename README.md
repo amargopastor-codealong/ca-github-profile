@@ -216,7 +216,7 @@ Crea las tuyas propias con [awesome-badges](https://github.com/Envoy-VC/awesome-
   <img src="./img/img3.png" style="width: 100%">
 </p>
 
-Recuerda la norma: _si todo es especial nada realmente lo es_, o lo que es lo mismo, **destaca pocos y aquellos que consideres realmente especiales**. Ten en cuenta que, muy probablemente, los visitantes a tu perfil centren su atención en aquellos 'repos' que tu recomiendes, no en los 400 que tengas creados en la pestaña correspondiente :wink:
+Recuerda la norma: _si todo es especial nada realmente lo es_, o lo que es lo mismo, **destaca pocos repositorios y sólo aquellos que consideres realmente especiales**. Ten en cuenta que, muy probablemente, los visitantes a tu perfil centren su atención en aquellos 'repos' que tu recomiendes, no en los 400 que tengas creados en la pestaña correspondiente :wink:
 
 ### Contributions
 
@@ -258,9 +258,9 @@ Para cualquier proyecto que decidamos almacenar de manera profesional en GitHub 
 
 - Qué hace el proyecto
 - Por qué el proyecto es útil
-- Cómo pueden comenzar los usuarios con el proyecto
-- Dónde pueden recibir ayuda los usuarios con tu proyecto
-- Quién mantiene y contribuye con el proyecto
+- Cómo pueden inicializar los usuarios el proyecto
+- Dónde pueden recibir ayuda los usuarios
+- Quién mantiene y contribuye
 - Deployments :robot:
 
 Si colocas tu archivo README en el directorio .github, raíz o docs oculto de tu repositorio, GitHub lo reconocerá y automáticamente expondrá tu archivo README a los visitantes del repositorio.
@@ -383,7 +383,7 @@ Las [organizaciones son cuentas compartidas](https://github.com/settings/organiz
 
 ## PixelHub
 
-Si has llegado hasta aquí :wink: quizás te interese un pequeño script que nos ayuda a generar instantáneamente un completo gráfico de contribuciones durante el último año[^1].
+Si has llegado hasta aquí :wink: quizás te interese un pequeño script que nos ayuda a generar instantáneamente un completo gráfico de contribuciones durante el último año.
 
 Las instrucciones son sencillas:
 
@@ -421,7 +421,8 @@ python contribute.py --days_before=10 --days_after=15 --repository=git@github.co
   <img src="./img/img9.png" style="width: 100%">
 </p>
 
-[^1]: Ten en cuenta que un vistazo rápido es suficiente para comprobar que el gráfico generado proviene de commits vacuos. No se trata de engañar a nadie sino de explorar alternativas, herramientas y reflexionar sobre las apariencias y la auténtica dedicación.
+> [!NOTE]  
+> DISCLAIMER: Ten en cuenta que un vistazo rápido es suficiente para comprobar que el gráfico generado proviene de commits vacuos. No se trata de engañar a nadie sino de explorar alternativas, herramientas y reflexionar sobre las apariencias y la auténtica dedicación.
 
 ## Resources
 
