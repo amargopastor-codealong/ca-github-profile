@@ -454,6 +454,8 @@ python contribute.py --days_before=10 --days_after=15 --repository=git@github.co
 
 - Las mejoras[prácticas para los repositorios de GitHub](https://dev.to/pwd9000/github-repository-best-practices-23ck)
 
+- Take [Your Github Repository To The Next Level](https://dev.to/vidova/take-your-github-repository-to-the-next-level-17ge)
+
 ### Badges
 
 - Tu listado de [awesome-badges](https://github.com/Envoy-VC/awesome-badges)
